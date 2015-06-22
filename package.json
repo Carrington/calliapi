@@ -1,0 +1,30 @@
+{
+  "name": "calliapi",
+  "version": "0.0.1",
+  "description": "API layer for Calliope",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "async": "^1.2.1",
+    "bluebird": "^2.9.30",
+    "body-parser": "^1.13.1",
+    "cookie-parser": "^1.3.5",
+    "cors": "^2.7.1",
+    "express": "^4.13.0"
+  },
+  "devDependencies": {
+    "express-mock-request": "^0.0.2",
+    "gulp": "^3.9.0",
+    "karma": "^0.12.36",
+    "lodash": "^3.9.3",
+    "mockery": "^1.4.0",
+    "swagger-node-express": "^2.1.3",
+    "swagger-ui": "^2.1.0",
+    "swagger-validation": "^1.4.2"
+  },
+  "scripts": {
+		"gulp": "node --harmony `which gulp`",
+    "test": "gulp test"
+  },
+  "author": "Daniel Ingraham",
+  "license": "Apache-2.0"
+}
