@@ -5,11 +5,12 @@
   "main": "gulpfile.js",
   "dependencies": {
     "async": "^1.2.1",
+    "babel-core": "^5.6.15",
     "bluebird": "^2.9.30",
     "body-parser": "^1.13.1",
     "cookie-parser": "^1.3.5",
-    "cors": "^2.7.1",
-    "express": "^4.13.0"
+    "restify": "^3.0.3",
+    "traceur": "0.0.90"
   },
   "devDependencies": {
     "express-mock-request": "^0.0.2",
@@ -22,7 +23,7 @@
     "swagger-validation": "^1.4.2"
   },
   "scripts": {
-		"gulp": "node --harmony `which gulp`",
+    "gulp": "node --harmony `which gulp`",
     "test": "gulp test"
   },
   "author": "Daniel Ingraham",
